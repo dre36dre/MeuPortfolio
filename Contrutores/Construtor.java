@@ -12,6 +12,10 @@ public class Construtor{
 
 System.out.println("Média: "+a.calcularMediaAluno()+ "e o aluno esta"+ a.STATUS)
 
+//ENUM MATRICULA
+A.situacaoAluno=MATRICULA.MATRICULADO;
+System.out.println("O aluno esta: "+a.situacaoAluno);
+
 
     }main
 }//classe
