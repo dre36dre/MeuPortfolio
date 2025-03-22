@@ -11,6 +11,13 @@ public Aluno (double nota1, double nota2, double nota3){
     this.nota3=nota3;
 }
 
+public enum MATRICULA{
+    MATRICULADO,
+    PENDENTE,
+    RECUSADO
+}
+
+
 
 pubic enum STATUS{
     APROVADO,
